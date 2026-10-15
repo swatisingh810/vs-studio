@@ -1,0 +1,244 @@
+*{
+    
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%
+}
+body {
+  font-family: "Inter", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto, Arial, sans-serif;
+  font-size: 14px;
+  background: #0d1117;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+button, input { font-family: inherit; }
+.navbar{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 150px;
+    border-bottom: 1px solid #2B2D31;
+    max-width: 100%;
+}
+.logo{
+    font-weight: 600;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    white-space: nowrap;
+    color: #E2E2E2;
+    cursor: pointer;
+}
+.logo img {
+    font-size: 20px;
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+.nav li {
+    cursor: pointer;
+    gap: 6px;
+}
+.nav ul {
+    display: flex;
+    gap: 5px;
+}
+
+.arrow {
+
+border: solid white;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 2px;
+}
+.down {
+    transform:rotate(45deg);
+    -webkit-transform:rotate(45deg);
+}
+.searchBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(70, 69, 69);
+    padding: 2px;
+    gap: 15px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.searchBar:hover {
+    background: rgb(165, 157, 157);
+}
+.cornerR {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 6px 2px;
+}
+.search {
+   display: flex;
+   align-items: center;
+   gap: 6px;
+   font-size: 13px;
+}
+.ctrl {
+    font-family: "JetBrains Mono", Consolas, monospace;
+    font-size: 11px;
+    border-radius: 3px;
+    border: 1px solid #2B2D31;
+   padding: 2px 1px;
+   color: #5A5B5E;
+   font-weight: 600;
+}
+.downloadBtn {
+    background: #0078d4;
+    color: white;
+    border-radius: 3px;
+    padding: 7px 16px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 14px;
+}
+.downloadBtn:hover {
+    background: rgb(54, 54, 243)
+}
+.icon:hover {
+    background: rgb(165, 157, 157);
+}
+.icon {
+    margin: 4px;
+    border-radius: 2px;
+    padding: 4px;
+}
+.hero {
+    text-align: center;
+    padding: 70px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.hero h1{
+    font-size: clamp(36px, 5vw, 64px);
+    font-weight: 700;
+    letter-spacing: -1px;
+    color: #E7EEF9;
+}
+.hero p {
+    margin-top: 18px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #E7EEF9;
+}
+.window {
+    margin-top: 55px;
+    width: 500px;
+    height: 180px;
+    background: #1E2024;
+    border-radius:18px; 
+}
+.window p {
+    text-align: center;
+    font-size: 12px;
+}
+.underline {
+    text-decoration: underline;
+    font-weight: 700;
+}
+.one {
+    background: white;
+    padding: 15px;
+    margin: 15px;
+    color: #0d1117;
+    font-weight: 800;
+    font-size: 20px;
+    border-radius: 15px;
+    display: flex;
+    gap: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.one img{
+    height: 24px;
+    width: 24px;
+}
+.codesection1 {
+    width: min(900px, 90%);
+    min-height: 560px;
+    border-radius: 12px;
+    background-image: url('https://code.visualstudio.com/assets/home/hero-background.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-color:#0078D4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+    transform: scaleX(-1);
+}
+.codesection1 img {
+    border-radius: 12px;
+    transform: scaleX(-1);
+}
+.hero2 {
+    display: flex;
+    align-items: center;
+    margin: 15px 4%;
+    justify-content: space-between;
+    padding-bottom: 250px;
+    gap: 80px;
+}
+.hero2right{
+    width: 40%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:10px;
+}
+.hero2right h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #e7eef9;
+}
+.hero2right p {
+    width: full;
+    line-height:25px;
+    font-weight: 500;
+}
+.hero2right a {
+    color:#0078D4;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.hero2left{
+    width: 60%;
+    flex: 1;
+}
+.codesection2{
+    background-color: #0078d4;
+    background-image:url('https://code.visualstudio.com/assets/home/hero-background.webp');
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+    padding: 40px;
+}
+.codesection2 img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
