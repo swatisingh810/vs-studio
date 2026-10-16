@@ -119,6 +119,7 @@ padding: 2px;
     margin: 4px;
     border-radius: 2px;
     padding: 4px;
+    cursor: pointer;
 }
 .hero {
     text-align: center;
@@ -154,6 +155,7 @@ padding: 2px;
 .underline {
     text-decoration: underline;
     font-weight: 700;
+    cursor: pointer;
 }
 .one {
     background: white;
@@ -168,6 +170,7 @@ padding: 2px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .one img{
     height: 24px;
@@ -241,4 +244,88 @@ padding: 2px;
     width: 100%;
     height: auto;
     border-radius: 8px;
+}
+.hero3 {
+  display: flex;
+  align-items: center;
+  margin: 2px 8%;
+  justify-content: space-between;
+  padding-bottom: 300px;
+  gap: 60px;  
+}
+.hero3right h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #e7eef9;
+}
+
+.hero3right {
+    border-radius: 12px;
+   background: #1E2024 ;
+   border: 1px solid #2B2D31; 
+   height: 550px;
+   width: 33%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 35px;
+   gap: 10px;
+}
+.hero3right p {
+    width: full;
+    line-height:25px;
+    font-weight: 500;
+}
+.hero3right a {
+    color:#0078D4;
+    cursor: pointer;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.hero3middle {
+    border-radius: 12px;
+   background: #1E2024 ;
+   border: 1px solid #2B2D31; 
+   height: 550px;
+   width: 33%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 35px;
+   gap: 10px;
+}
+.hero3middle p {
+    width: full;
+    line-height:25px;
+    font-weight: 500;
+}
+.hero3middle h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #e7eef9;
+}
+.hero3left {
+   border-radius: 12px;
+   background: #1E2024 ;
+   border: 1px solid #2B2D31; 
+   height: 550px;
+   width: 33%;
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   justify-content: flex-start;
+   padding: 35px;
+   gap: 10px;
+}
+.hero3left p {
+    width: full;
+    line-height:25px;
+    font-weight: 500;
+}
+.hero3left h1 {
+    font-size: 32px;
+    font-weight: 500;
+    color: #e7eef9;
 }
