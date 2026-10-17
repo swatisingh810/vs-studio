@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 5px 150px;
+    padding: 5px 35px;
     border-bottom: 1px solid #2B2D31;
     max-width: 100%;
 }
@@ -28,8 +28,7 @@ body {
     font-size: 16px;
     display: flex;
     align-items: center;
-    gap: 7px;
-    white-space: nowrap;
+    gap: 7px; 
     color: #E2E2E2;
     cursor: pointer;
 }
@@ -42,11 +41,15 @@ body {
 }
 .nav li {
     cursor: pointer;
-    gap: 6px;
 }
 .nav ul {
     display: flex;
-    gap: 5px;
+    gap: 17px;
+}
+.gap {
+    gap: 78px;
+    display: flex;
+    align-items: center;
 }
 
 .arrow {
